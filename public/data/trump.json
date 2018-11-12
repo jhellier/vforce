@@ -1,0 +1,2286 @@
+{
+    "nodes": [
+        {
+            "id": "ALEXANDER NIX"
+        },
+        {
+            "id": "BRAD PARSCALE"
+        },
+        {
+            "id": "ALLEN WEISSELBERG"
+        },
+        {
+            "id": "JACK WEISSELBERG"
+        },
+        {
+            "id": "ANAR MAMMADOV"
+        },
+        {
+            "id": "ZIYA MAMMADOV"
+        },
+        {
+            "id": "ANDREW BREMBERG"
+        },
+        {
+            "id": "MIKE FERGUSON"
+        },
+        {
+            "id": "MITCH MCCONNELL"
+        },
+        {
+            "id": "SCOTT WALKER"
+        },
+        {
+            "id": "ANDY PUZDER"
+        },
+        {
+            "id": "WILLIAM P. FOLEY"
+        },
+        {
+            "id": "ANTHONY SCARAMUCCI"
+        },
+        {
+            "id": "KIRILL DMITRIEV"
+        },
+        {
+            "id": "AVRAM LEBOR"
+        },
+        {
+            "id": "JARED KUSHNER"
+        },
+        {
+            "id": "BEN CARSON"
+        },
+        {
+            "id": "BARRY BENNETT"
+        },
+        {
+            "id": "BILL STEPIEN"
+        },
+        {
+            "id": "KEVIN MARINO"
+        },
+        {
+            "id": "CARTER PAGE"
+        },
+        {
+            "id": "DONALD J. TRUMP"
+        },
+        {
+            "id": "CHARLES KUSHNER"
+        },
+        {
+            "id": "ALAN HAMMER"
+        },
+        {
+            "id": "DARA ORBACH"
+        },
+        {
+            "id": "ESTHER KUSHNER"
+        },
+        {
+            "id": "JIM MCGREEVEY"
+        },
+        {
+            "id": "MURRAY KUSHNER"
+        },
+        {
+            "id": "NICOLE KUSHNER MEYER"
+        },
+        {
+            "id": "SERYL KUSHNER"
+        },
+        {
+            "id": "CHLOE MURDOCH"
+        },
+        {
+            "id": "IVANKA TRUMP"
+        },
+        {
+            "id": "CHRIS CHRISTIE"
+        },
+        {
+            "id": "DAVID WILDSTEIN"
+        },
+        {
+            "id": "DANIEL RIDLOFF"
+        },
+        {
+            "id": "ELVIRA KUDRYASHOVA"
+        },
+        {
+            "id": "DAVID S. CORDISH"
+        },
+        {
+            "id": "REED S. CORDISH"
+        },
+        {
+            "id": "ADO MACHIDA"
+        },
+        {
+            "id": "AJIT PAI"
+        },
+        {
+            "id": "ALEX SHNAIDER"
+        },
+        {
+            "id": "ARAS AGALAROV"
+        },
+        {
+            "id": "BETSY DEVOS"
+        },
+        {
+            "id": "BRIAN BAUDREAU"
+        },
+        {
+            "id": "CARL C. ICAHN"
+        },
+        {
+            "id": "CHRISTINE CICCONE"
+        },
+        {
+            "id": "CHRISTOPHER RUDDY"
+        },
+        {
+            "id": "COREY LEWANDOWSKI"
+        },
+        {
+            "id": "CURTIS DUBAY"
+        },
+        {
+            "id": "DAN COATS"
+        },
+        {
+            "id": "DAVID SHULKIN"
+        },
+        {
+            "id": "DINA POWELL"
+        },
+        {
+            "id": "DON MCGAHN"
+        },
+        {
+            "id": "DONALD TRUMP JR."
+        },
+        {
+            "id": "EDWIN FEULNER"
+        },
+        {
+            "id": "EDWIN MEESE"
+        },
+        {
+            "id": "ELAINE CHAO"
+        },
+        {
+            "id": "ELENA GORLOVA"
+        },
+        {
+            "id": "ELON MUSK"
+        },
+        {
+            "id": "EMIN AGALAROV"
+        },
+        {
+            "id": "ERIC TRUMP"
+        },
+        {
+            "id": "ERIC UELAND"
+        },
+        {
+            "id": "FELIPE YARYURA"
+        },
+        {
+            "id": "GARY COHN"
+        },
+        {
+            "id": "GINNI ROMETTY"
+        },
+        {
+            "id": "INDRA NOOYI"
+        },
+        {
+            "id": "JAMES MATTIS"
+        },
+        {
+            "id": "JAMIE DIMON"
+        },
+        {
+            "id": "JASON D. GREENBLATT"
+        },
+        {
+            "id": "JASON D. MEISTER"
+        },
+        {
+            "id": "JEFF SESSIONS"
+        },
+        {
+            "id": "JESSICA DITTO"
+        },
+        {
+            "id": "JOE HAGIN"
+        },
+        {
+            "id": "JOHN DESTEFANO"
+        },
+        {
+            "id": "JOHN F. KELLY"
+        },
+        {
+            "id": "JOHN GRAY"
+        },
+        {
+            "id": "JOHN MCENTEE"
+        },
+        {
+            "id": "KALPESH MEHTA"
+        },
+        {
+            "id": "KATHLEEN TROIA MCFARLAND"
+        },
+        {
+            "id": "KEITH SCHILLER"
+        },
+        {
+            "id": "KELLYANNE CONWAY"
+        },
+        {
+            "id": "LINDA BEAN"
+        },
+        {
+            "id": "LINDA MCMAHON"
+        },
+        {
+            "id": "LINDSAY WALTERS"
+        },
+        {
+            "id": "MANGAL PRABHAT LODHA"
+        },
+        {
+            "id": "MARC SHORT"
+        },
+        {
+            "id": "MARY T. BARRA"
+        },
+        {
+            "id": "MARYANNE TRUMP BARRY"
+        },
+        {
+            "id": "MEHMET ALI YALCINDAG"
+        },
+        {
+            "id": "MELANIA TRUMP"
+        },
+        {
+            "id": "MICHAEL FLYNN"
+        },
+        {
+            "id": "MICHAEL POMPEO"
+        },
+        {
+            "id": "MICK MULVANEY"
+        },
+        {
+            "id": "MIKE BASELICE"
+        },
+        {
+            "id": "NIKKI HALEY"
+        },
+        {
+            "id": "OLEG MISERVA"
+        },
+        {
+            "id": "OMAROS� ONEE MANIGAULT"
+        },
+        {
+            "id": "PAUL MANAFORT"
+        },
+        {
+            "id": "PETER NAVARRO"
+        },
+        {
+            "id": "PETER THIEL"
+        },
+        {
+            "id": "PRINCE ALWALEED BIN TALALTHE"
+        },
+        {
+            "id": "RAJ SHAH"
+        },
+        {
+            "id": "REBEKAH MERCER"
+        },
+        {
+            "id": "RECEP TAYYIP ERDOGAN"
+        },
+        {
+            "id": "REINCE PRIEBUS"
+        },
+        {
+            "id": "REX TILLERSON"
+        },
+        {
+            "id": "RICHARD LEFRAK"
+        },
+        {
+            "id": "RICK DEARBORN"
+        },
+        {
+            "id": "RICK PERRY"
+        },
+        {
+            "id": "ROBERT A. IGER"
+        },
+        {
+            "id": "ROBERT LIGHTHIZER"
+        },
+        {
+            "id": "ROBERT MERCER"
+        },
+        {
+            "id": "\"ROGER J. STONE JR.\""
+        },
+        {
+            "id": "ROGER KHAFIF"
+        },
+        {
+            "id": "RUPERT MURDOCH"
+        },
+        {
+            "id": "RUSS VOUGHT"
+        },
+        {
+            "id": "RYAN ZINKE"
+        },
+        {
+            "id": "SAM CLOVIS"
+        },
+        {
+            "id": "SAM NUNBERG"
+        },
+        {
+            "id": "SCOTT PRUITT"
+        },
+        {
+            "id": "SEAN SPICER"
+        },
+        {
+            "id": "SEBASTIAN GORKA"
+        },
+        {
+            "id": "SERGEY I. KISLYAK"
+        },
+        {
+            "id": "SHERI A. DILLON"
+        },
+        {
+            "id": "STEPHEN A. SCHWARZMAN"
+        },
+        {
+            "id": "STEPHEN B. MEISTER"
+        },
+        {
+            "id": "STEPHEN BANNON"
+        },
+        {
+            "id": "STEPHEN MILLER"
+        },
+        {
+            "id": "STEVEN MNUCHIN"
+        },
+        {
+            "id": "STEVEN ROTH"
+        },
+        {
+            "id": "TERRY BRANSTAD"
+        },
+        {
+            "id": "THOMAS J. BARRACK JR."
+        },
+        {
+            "id": "TOM BOSSERT"
+        },
+        {
+            "id": "TOM PRICE"
+        },
+        {
+            "id": "TRAVIS KALANICK"
+        },
+        {
+            "id": "VICTOR PINCHUK"
+        },
+        {
+            "id": "WELLS GRIFFITH"
+        },
+        {
+            "id": "WILBUR ROSS"
+        },
+        {
+            "id": "ANDRIY ZAIKA"
+        },
+        {
+            "id": "BERNARD R. DIAMOND"
+        },
+        {
+            "id": "BONNIE HAYDON"
+        },
+        {
+            "id": "RUSSELL FLICKER"
+        },
+        {
+            "id": "VANESSA TRUMP"
+        },
+        {
+            "id": "VIKTOR TKACHUK"
+        },
+        {
+            "id": "ANGELA CHAO"
+        },
+        {
+            "id": "CHRISTINE CHAO"
+        },
+        {
+            "id": "VIKTOR KHRAPUNOV"
+        },
+        {
+            "id": "ERIK PRINCE"
+        },
+        {
+            "id": "FELIX SATER"
+        },
+        {
+            "id": "GEORGE SOROS"
+        },
+        {
+            "id": "GEORGE T. CONWAY III"
+        },
+        {
+            "id": "GRACE MURDOCH"
+        },
+        {
+            "id": "ILYAS KHRAPUNOV"
+        },
+        {
+            "id": "PAULO FIGUEIREDO FILHO"
+        },
+        {
+            "id": "JAMES S.C. CHAO"
+        },
+        {
+            "id": "ASHER ABEHSERA"
+        },
+        {
+            "id": "CUI TIANKAI"
+        },
+        {
+            "id": "JUSTIN WENIGER"
+        },
+        {
+            "id": "MARGARET CHIN"
+        },
+        {
+            "id": "MARTIN SORRELL"
+        },
+        {
+            "id": "MILES BERGER"
+        },
+        {
+            "id": "ROB SPEYER"
+        },
+        {
+            "id": "RYAN DOHERTY"
+        },
+        {
+            "id": "STRAUSS ZELNICK"
+        },
+        {
+            "id": "GARRETT MURCH"
+        },
+        {
+            "id": "JOHN KYL"
+        },
+        {
+            "id": "JOSE E.B. ANTONIO"
+        },
+        {
+            "id": "\"JOSE ROBERTO \"\"ROBBIE\"\" ANTONIO\""
+        },
+        {
+            "id": "JOSEPH MEYER"
+        },
+        {
+            "id": "JOSHUA KUSHNER"
+        },
+        {
+            "id": "LEV LEVIEV"
+        },
+        {
+            "id": "VLADIMIR PUTIN"
+        },
+        {
+            "id": "LUCIUS JOSEPH RICCIO"
+        },
+        {
+            "id": "RHONA GRAFF RICCIO"
+        },
+        {
+            "id": "MARK BURNETT"
+        },
+        {
+            "id": "ROMA DOWNEY"
+        },
+        {
+            "id": "MATTHEW CALAMARI"
+        },
+        {
+            "id": "\"MATTHEW CALAMARI JR.\""
+        },
+        {
+            "id": "AYDIN DOGAN"
+        },
+        {
+            "id": "LINDSEY REYNOLDS"
+        },
+        {
+            "id": "STEPHANIE WINSTON WOLKOFF"
+        },
+        {
+            "id": "MICHAEL FASCITELLI"
+        },
+        {
+            "id": "MICHELLE BACHMANN"
+        },
+        {
+            "id": "PAM MULVANEY"
+        },
+        {
+            "id": "MIKE PENCE"
+        },
+        {
+            "id": "JEN PAVLIK"
+        },
+        {
+            "id": "JOSH PITCOCK"
+        },
+        {
+            "id": "NICOLAS SARKOZY"
+        },
+        {
+            "id": "ALBERT ROSS SR."
+        },
+        {
+            "id": "H. B. HICKS"
+        },
+        {
+            "id": "ABDUL RAHMAN AL-ASSIR"
+        },
+        {
+            "id": "ARTHUR G. COHEN"
+        },
+        {
+            "id": "DMITRY FIRTASH"
+        },
+        {
+            "id": "DMYTRO FIRTASH"
+        },
+        {
+            "id": "RINAT AKHMETOV"
+        },
+        {
+            "id": "SERHIY LYOVOCHKIN"
+        },
+        {
+            "id": "VIKTOR F. YANUKOVYCH"
+        },
+        {
+            "id": "SYLVAIN MIROCHNIKOFF"
+        },
+        {
+            "id": "KATIE WALSH"
+        },
+        {
+            "id": "ALEXANDER NOVAK"
+        },
+        {
+            "id": "IGOR SECHIN"
+        },
+        {
+            "id": "RICHARD DEVOS"
+        },
+        {
+            "id": "RICHARD GOETTLICH"
+        },
+        {
+            "id": "\"RICHARD MARVIN \"\"DICK\"\" DEVOS JR.\""
+        },
+        {
+            "id": "ANITA THIGPEN PERRY"
+        },
+        {
+            "id": "PETER HOLT"
+        },
+        {
+            "id": "BOB DOLE"
+        },
+        {
+            "id": "JULIAN ASSANGE"
+        },
+        {
+            "id": "RUDY GIULIANI"
+        },
+        {
+            "id": "KEN KURSON"
+        },
+        {
+            "id": "SALLY PRIEBUS"
+        },
+        {
+            "id": "SAM BROWNBACK"
+        },
+        {
+            "id": "HAROLD G. HAMM"
+        },
+        {
+            "id": "SERGEI MILLIAN"
+        },
+        {
+            "id": "YURY ZAYTSEV"
+        },
+        {
+            "id": "SERGEY KISLYAK"
+        },
+        {
+            "id": "SETYA NOVANTO"
+        },
+        {
+            "id": "HARY TANOESOEDIBJO"
+        },
+        {
+            "id": "SHANNON MCGAHN"
+        },
+        {
+            "id": "CAROLINE MAY"
+        },
+        {
+            "id": "DAVID HOROWITZ"
+        },
+        {
+            "id": "JULIA HAHN"
+        },
+        {
+            "id": "TUCKER CARLSON"
+        },
+        {
+            "id": "EDWARD LAMPERT"
+        },
+        {
+            "id": "SUSAN POMPEO"
+        },
+        {
+            "id": "XI JINPING"
+        },
+        {
+            "id": "TIAH JOO KIM"
+        },
+        {
+            "id": "TONY TIAH THEE KIAN"
+        },
+        {
+            "id": "CATHERINE BRAY GRIFFITH"
+        },
+        {
+            "id": "WENDI DENG MURDOCH"
+        },
+        {
+            "id": "WU XIAOHUI"
+        },
+        {
+            "id": "ZHUO RAN"
+        }
+    ],
+    "links": [
+        {
+            "source": "ALEXANDER NIX",
+            "target": "BRAD PARSCALE",
+            "relation": "\"Pascale says he hired Nix's company",
+            "detail": " Cambridge Analytica"
+        },
+        {
+            "source": "ALLEN WEISSELBERG",
+            "target": "JACK WEISSELBERG",
+            "relation": "Parent/child",
+            "detail": "https://www.nytimes.com/2016/05/24/business/dealbook/donald-trump-relationship-bankers.html?_r=0"
+        },
+        {
+            "source": "ANAR MAMMADOV",
+            "target": "ZIYA MAMMADOV",
+            "relation": "Parent/child",
+            "detail": "https://www.meydan.tv/en/site/politics/13787/"
+        },
+        {
+            "source": "ANDREW BREMBERG",
+            "target": "MIKE FERGUSON",
+            "relation": "\"Bremberg \"\"is a lifelong friend\"\" of Ferguson",
+            "detail": " a former U.S. House representative"
+        },
+        {
+            "source": "ANDREW BREMBERG",
+            "target": "MITCH MCCONNELL",
+            "relation": "Policy advisor and counsel on nominations",
+            "detail": "https://www.linkedin.com/in/andrew-bremberg-7170938"
+        },
+        {
+            "source": "ANDREW BREMBERG",
+            "target": "SCOTT WALKER",
+            "relation": "Policy director for Walker's campaign",
+            "detail": "http://www.modernhealthcare.com/article/20161111/NEWS/161119989?utm_source=modernhealthcare&utm_medium=email&utm_content=20161111-NEWS-161119989&utm_campaign=mh-alert"
+        },
+        {
+            "source": "ANDY PUZDER",
+            "target": "WILLIAM P. FOLEY",
+            "relation": "\"Worked together on deal to turn around debts of Carl's Jr. founder",
+            "detail": " which was a major success in Puzder's career\""
+        },
+        {
+            "source": "ANTHONY SCARAMUCCI",
+            "target": "KIRILL DMITRIEV",
+            "relation": "Met at Davos",
+            "detail": "https://www.bloomberg.com/politics/articles/2017-01-17/in-davos-trump-aide-talks-deals-with-sanctioned-kremlin-fund"
+        },
+        {
+            "source": "AVRAM LEBOR",
+            "target": "JARED KUSHNER",
+            "relation": "Kushner hired him for his real estate company",
+            "detail": "https://www.bloomberg.com/news/features/2017-01-27/jared-kushner-s-felon-father-brought-two-fellow-inmates-into-company"
+        },
+        {
+            "source": "BEN CARSON",
+            "target": "BARRY BENNETT",
+            "relation": "Bennet was Carson's presidential campaign manager",
+            "detail": "https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/former-carson-campaign-manager-barry-bennett-is-quietly-advising-trumps-top-aides/?utm_term=.795d808dc8d2"
+        },
+        {
+            "source": "BILL STEPIEN",
+            "target": "KEVIN MARINO",
+            "relation": "Marino served as Stepien's attorney during the Bridgegate trial",
+            "detail": "http://www.politico.com/story/2017/01/bill-stepien-donald-trump-christie-233199"
+        },
+        {
+            "source": "CARTER PAGE",
+            "target": "DONALD J. TRUMP",
+            "relation": "Foreign policy adviser",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "CHARLES KUSHNER",
+            "target": "ALAN HAMMER",
+            "relation": "\"\"\"has long worked with\"\" Kushner",
+            "detail": " per New York Magazine\""
+        },
+        {
+            "source": "CHARLES KUSHNER",
+            "target": "DARA ORBACH",
+            "relation": "Parent/child",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "CHARLES KUSHNER",
+            "target": "ESTHER KUSHNER",
+            "relation": "Siblings",
+            "detail": "http://nymag.com/daily/intelligencer/2017/01/jared-kushner-trump-administration-power.html"
+        },
+        {
+            "source": "CHARLES KUSHNER",
+            "target": "JIM MCGREEVEY",
+            "relation": "\"\"\"the financial force\"\" behind the former governor's campaign",
+            "detail": " per New York Magazine\""
+        },
+        {
+            "source": "CHARLES KUSHNER",
+            "target": "MURRAY KUSHNER",
+            "relation": "Siblings",
+            "detail": "http://nymag.com/daily/intelligencer/2017/01/jared-kushner-trump-administration-power.html"
+        },
+        {
+            "source": "CHARLES KUSHNER",
+            "target": "NICOLE KUSHNER MEYER",
+            "relation": "Parent/child",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "CHARLES KUSHNER",
+            "target": "SERYL KUSHNER",
+            "relation": "Married",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "CHLOE MURDOCH",
+            "target": "IVANKA TRUMP",
+            "relation": "Former trustee",
+            "detail": "https://www.ft.com/content/a615f0ce-ed90-11e6-930f-061b01e23655"
+        },
+        {
+            "source": "CHRIS CHRISTIE",
+            "target": "BILL STEPIEN",
+            "relation": "Former deputy chief of staff",
+            "detail": "http://www.politico.com/story/2017/01/bill-stepien-donald-trump-christie-233199"
+        },
+        {
+            "source": "CHRIS CHRISTIE",
+            "target": "DAVID WILDSTEIN",
+            "relation": "\"Christie and Wildstein went to high school together",
+            "detail": " and Christie appointed Wildstein to a director position at the Port Authority\""
+        },
+        {
+            "source": "DANIEL RIDLOFF",
+            "target": "ELVIRA KUDRYASHOVA",
+            "relation": "\"Ridloff \"\"agreed to serve as [a director] of a company through which [Kudryashova] would pour $3m into a business venture as part of her efforts to secure a US investor visa",
+            "detail": "\"\" per the Financial Times\""
+        },
+        {
+            "source": "DAVID S. CORDISH",
+            "target": "REED S. CORDISH",
+            "relation": "Parent/child",
+            "detail": "http://www.baltimoresun.com/news/maryland/politics/blog/bal-reed-cordish-to-join-trump-administration-20170105-story.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ADO MACHIDA",
+            "relation": "Director of policy implementation for Trump transition team",
+            "detail": "http://www.cnn.com/2016/11/10/politics/donald-trump-transition-drain-the-swamp/ | https://www.linkedin.com/in/ado-machida-68a9a64"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "AJIT PAI",
+            "relation": "Appointed chairman of the Federal Communications Commission",
+            "detail": "http://www.usatoday.com/story/tech/news/2017/01/23/new-fcc-chairman-ajit-pai-no-net-neutrality-fan/96967372/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ALEX SHNAIDER",
+            "relation": "\"\"\"Trump�s primary partner for his lucrative business in Canada",
+            "detail": "\"\" per Newsweek\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ALEXANDER NIX",
+            "relation": "Worked on presidential campaign. May continue work for the administration.",
+            "detail": "https://www.theguardian.com/us-news/2016/nov/23/donald-trump-cambridge-analytica-steve-bannon"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ANDREW BREMBERG",
+            "relation": "Domestic policy advisor",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ANDY PUZDER",
+            "relation": "Nominee for Secretary of Labor",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ANTHONY SCARAMUCCI",
+            "relation": "Considered for senior adviser to the President position",
+            "detail": "https://mobile.nytimes.com/2017/02/01/us/politics/anthony-scaramucci-china-trump-administration.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ARAS AGALAROV",
+            "relation": "\"The billionaire real estate developer says he befriended Trump",
+            "detail": " and also has served as a liaison between Trump and Putin\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "BARRY BENNETT",
+            "relation": "\"\"\"Informal advisor to the Donald Trump campaign",
+            "detail": "\"\" per the Washington Post\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "BEN CARSON",
+            "relation": "Nominee for Secretary of HUD",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "BETSY DEVOS",
+            "relation": "Nominee for Secretary of Education",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "BILL STEPIEN",
+            "relation": "White House political director",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "BRAD PARSCALE",
+            "relation": "Former digital director for Trump campaign",
+            "detail": "http://www.politico.com/story/2017/01/new-pro-trump-political-group-readies-for-launch-233263"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "BRIAN BAUDREAU",
+            "relation": "Former driver",
+            "detail": "https://www.nytimes.com/2016/12/25/us/politics/trump-organization-business.html?_r=0"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "CARL C. ICAHN",
+            "relation": "Special Advisor on Business Regulations",
+            "detail": "http://fortune.com/2016/12/21/donald-trump-carl-icahn-special-adviser-regulations/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "CHRISTINE CICCONE",
+            "relation": "\"\"\"Leader\"\" in the transition team per CNN\"",
+            "detail": "http://www.cnn.com/2016/11/10/politics/donald-trump-transition-drain-the-swamp/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "CHRISTOPHER RUDDY",
+            "relation": "\"\"\"One of Trump's longtime friends",
+            "detail": "\"\" according to the Washington Post\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "COREY LEWANDOWSKI",
+            "relation": "Former campaign manager",
+            "detail": "http://www.politico.com/blogs/on-media/2017/01/corey-lewandowski-joins-conservative-news-network-as-commentator-233559"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "CURTIS DUBAY",
+            "relation": "Part of Treasury Department transition team",
+            "detail": "http://thehill.com/policy/finance/307066-trump-taps-economists-investors-for-transition-team"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "DAN COATS",
+            "relation": "Nominee for Director of National Intelligence",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "DAVID S. CORDISH",
+            "relation": "Friends",
+            "detail": "http://www.baltimoresun.com/news/maryland/politics/blog/bal-reed-cordish-to-join-trump-administration-20170105-story.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "DAVID SHULKIN",
+            "relation": "Nominee for Secretary of Veterans Affairs",
+            "detail": "http://www.usnews.com/news/national-news/articles/2017-02-09/10-things-you-didnt-know-about-david-shulkin"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "DINA POWELL",
+            "relation": "Assistant to the president and senior counselor for economic initiatives",
+            "detail": "https://www.bloomberg.com/politics/articles/2017-01-12/goldman-sachs-s-dina-powell-named-as-trump-s-economic-assistant"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "DON MCGAHN",
+            "relation": "White House Counsel",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "DONALD TRUMP JR.",
+            "relation": "Parent/child",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "EDWIN FEULNER",
+            "relation": "\"\"\"Leader\"\" in the transition team per CNN\"",
+            "detail": "http://www.cnn.com/2016/11/10/politics/donald-trump-transition-drain-the-swamp/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "EDWIN MEESE",
+            "relation": "\"\"\"Leader\"\" in the transition team per CNN\"",
+            "detail": "http://www.cnn.com/2016/11/10/politics/donald-trump-transition-drain-the-swamp/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ELAINE CHAO",
+            "relation": "Nominee for Secretary of Transportation",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ELENA GORLOVA",
+            "relation": "Gorlova bought a Trump penthouse in Florida",
+            "detail": "https://www.washingtonpost.com/politics/in-little-moscow-russians-helped-donald-trumps-brand-survive-the-recession/2016/11/04/f9dbd38e-97cf-11e6-bb29-bf2701dbe0a3_story.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ELON MUSK",
+            "relation": "Member of Trump's Strategic and Policy forum",
+            "detail": "http://fortune.com/2016/12/14/donald-trump-musk-kalanick-nooyi/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "EMIN AGALAROV",
+            "relation": "\"The Russian pop singer",
+            "detail": " son of billionaire real estate developer Aras Agalarov"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ERIC TRUMP",
+            "relation": "Parent/child",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ERIC UELAND",
+            "relation": "\"\"\"Leader\"\" in the transition team per CNN\"",
+            "detail": "http://www.cnn.com/2016/11/10/politics/donald-trump-transition-drain-the-swamp/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "FELIPE YARYURA",
+            "relation": "The Argentine real estate developer is said to be friends with the Trump family",
+            "detail": "http://www.lanacion.com.ar/1955208-la-emocion-del-socio-argentino-de-trump"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "GARY COHN",
+            "relation": "Director United States National Economic Council",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "GINNI ROMETTY",
+            "relation": "Member of Trump's Strategic and Policy forum",
+            "detail": "http://fortune.com/2016/12/14/donald-trump-musk-kalanick-nooyi/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "INDRA NOOYI",
+            "relation": "Member of Trump's Strategic and Policy forum",
+            "detail": "http://fortune.com/2016/12/14/donald-trump-musk-kalanick-nooyi/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "IVANKA TRUMP",
+            "relation": "Parent/child",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JAMES MATTIS",
+            "relation": "Nominee for Secretary of Defense",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JAMIE DIMON",
+            "relation": "Member of Trump's Strategic and Policy forum",
+            "detail": "http://fortune.com/2016/12/14/donald-trump-musk-kalanick-nooyi/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JARED KUSHNER",
+            "relation": "Senior adviser",
+            "detail": "https://www.washingtonpost.com/news/post-politics/wp/2017/01/09/tumps-son-in-law-jared-kushner-expected-to-join-white-house-as-a-senior-adviser/?utm_term=.a3958e1d3829"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JASON D. GREENBLATT",
+            "relation": "Special Representative for International Negotiations",
+            "detail": "https://www.nytimes.com/2016/12/25/us/politics/trump-organization-business.html?_r=0"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JASON D. MEISTER",
+            "relation": "\"Worked on Trump's NY campaign",
+            "detail": " goes on Fox News as a Trump surrogate\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JEFF SESSIONS",
+            "relation": "Nominee for Attorney General",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JESSICA DITTO",
+            "relation": "Deputy communications director",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JOE HAGIN",
+            "relation": "Deputy chief of staff for operations",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JOHN DESTEFANO",
+            "relation": "Director of presidential personnel",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JOHN F. KELLY",
+            "relation": "Nominee for Secretary of Department of Homeland Security",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JOHN GRAY",
+            "relation": "Part of OMB transition team",
+            "detail": "http://thehill.com/policy/finance/314991-trump-team-prepares-dramatic-cuts"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "JOHN MCENTEE",
+            "relation": "Personal aide to the President",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "KALPESH MEHTA",
+            "relation": "\"\"\"exclusive representative of Trump's businesses in India",
+            "detail": "\"\" per Newsweek\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "KATHLEEN TROIA MCFARLAND",
+            "relation": "Deputy National Security Advisor",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "KEITH SCHILLER",
+            "relation": "Director of Oval Office operations",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "KELLYANNE CONWAY",
+            "relation": "White House Counselor",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "LINDA BEAN",
+            "relation": "Donor",
+            "detail": "http://www.nbcnews.com/business/business-news/l-l-bean-embroiled-spat-over-donation-trump-campaign-n706236"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "LINDA MCMAHON",
+            "relation": "Nominee for Administrator of the Small Business Administration",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "LINDSAY WALTERS",
+            "relation": "White House spokeswoman",
+            "detail": "https://www.bloomberg.com/politics/articles/2017-02-03/trump-trade-pick-could-negotiate-for-industry-of-biggest-client"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MANGAL PRABHAT LODHA",
+            "relation": "Business partners",
+            "detail": "http://www.nytimes.com/2016/11/26/us/politics/donald-trump-international-business.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MARC SHORT",
+            "relation": "Director of legislative affairs",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MARY T. BARRA",
+            "relation": "Member of Trump's Strategic and Policy forum",
+            "detail": "http://fortune.com/2016/12/14/donald-trump-musk-kalanick-nooyi/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MARYANNE TRUMP BARRY",
+            "relation": "Siblings",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MEHMET ALI YALCINDAG",
+            "relation": "Business partners",
+            "detail": "http://www.nytimes.com/2016/11/26/us/politics/donald-trump-international-business.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MELANIA TRUMP",
+            "relation": "Married",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MICHAEL FLYNN",
+            "relation": "National Security Advisor",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MICHAEL POMPEO",
+            "relation": "Nominee for Director of CIA",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MICK MULVANEY",
+            "relation": "Nominee for Director of Office of Management and Budget",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "MIKE BASELICE",
+            "relation": "Pollster for Trump's presidential campaign",
+            "detail": "https://www.texastribune.org/2016/07/01/trump-campaign-turns-texas-political-talent/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "NIKKI HALEY",
+            "relation": "Nominee for Ambassador to the United Nations",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "OLEG MISERVA",
+            "relation": "Miserva bought a Trump penthouse in Florida",
+            "detail": "https://www.washingtonpost.com/politics/in-little-moscow-russians-helped-donald-trumps-brand-survive-the-recession/2016/11/04/f9dbd38e-97cf-11e6-bb29-bf2701dbe0a3_story.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "OMAROS� ONEE MANIGAULT",
+            "relation": "Assistant to the President and Director of Communications for the Office of Public Liaison",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "PAUL MANAFORT",
+            "relation": "Former campaign manager",
+            "detail": "http://www.cnn.com/2016/08/19/politics/donald-trump-campaign-chairman-paul-manafort-resigns/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "PETER NAVARRO",
+            "relation": "Trade adviser",
+            "detail": "https://www.bloomberg.com/politics/articles/2017-02-07/china-courts-ivanka-jared-kushner-to-smooth-ties-with-trump"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "PETER THIEL",
+            "relation": "Former transition team member",
+            "detail": "http://www.politico.com/story/2017/01/peter-thiel-no-job-trump-administration-233523"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "PRINCE ALWALEED BIN TALALTHE",
+            "relation": "\"\"\"the billionaire [...] aided Trump during his corporate bankruptcies in the 1990s by purchasing his yacht",
+            "detail": " which provided him with desperately needed cash"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "RAJ SHAH",
+            "relation": "Deputy communications director",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "REBEKAH MERCER",
+            "relation": "Major donor",
+            "detail": "https://www.washingtonpost.com/politics/the-rise-of-gop-mega-donor-rebekah-mercer/2016/09/13/85ae3c32-79bf-11e6-beac-57a4a412e93a_story.html?utm_term=.b4e577d44785"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "RECEP TAYYIP ERDOGAN",
+            "relation": "\"Erdogan",
+            "detail": " the president of Turkey and a vocal Trump supporter"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "REED S. CORDISH",
+            "relation": "Assistant to the President for intragovernmental and technology initiatives",
+            "detail": "http://www.baltimoresun.com/news/maryland/politics/blog/bal-reed-cordish-to-join-trump-administration-20170105-story.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "REINCE PRIEBUS",
+            "relation": "White House Chief of Staff",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "REX TILLERSON",
+            "relation": "Nominee for Secretary of State",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "RICHARD LEFRAK",
+            "relation": "\"\"\"one of Trump's few close friends in New York real estate",
+            "detail": "\"\" per New York Magazine and co-head of his new infrastructure council according to the Wall Street Journal\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "RICK DEARBORN",
+            "relation": "Deputy chief of staff for legislative and intergovernmental affairs",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "RICK PERRY",
+            "relation": "Nominee for Secretary of Energy",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ROBERT A. IGER",
+            "relation": "Member of Trump's Strategic and Policy forum",
+            "detail": "http://fortune.com/2016/12/14/donald-trump-musk-kalanick-nooyi/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ROBERT LIGHTHIZER",
+            "relation": "Nominee for U.S. Trade Representative",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ROBERT MERCER",
+            "relation": "Major donor",
+            "detail": "https://www.publicintegrity.org/2016/12/02/20504/what-we-knew-about-donald-trump-s-inner-circle-when-we-knew-it"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "\"ROGER J. STONE JR.\"",
+            "relation": "\"\"\"Longtime adviser",
+            "detail": "\"\" per Politico\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "ROGER KHAFIF",
+            "relation": "\"Told Russian buyers he was a partner in Trump project in Sunny Isles",
+            "detail": " Fla.\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "RUPERT MURDOCH",
+            "relation": "\"\"\"Trump has asked Murdoch to submit names for FCC Chairman",
+            "detail": "\"\" per NY Mag\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "RUSS VOUGHT",
+            "relation": "Part of OMB transition team",
+            "detail": "http://thehill.com/policy/finance/314991-trump-team-prepares-dramatic-cuts"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "RYAN ZINKE",
+            "relation": "Nominee for Secretary of Interior",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "SAM CLOVIS",
+            "relation": "Former senior policy advisor on campaign",
+            "detail": "http://www.politico.com/magazine/story/2016/06/stephen-miller-donald-trump-2016-policy-adviser-jeff-sessions-213992"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "SAM NUNBERG",
+            "relation": "Former adviser",
+            "detail": "http://www.politico.com/magazine/story/2016/06/stephen-miller-donald-trump-2016-policy-adviser-jeff-sessions-213992"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "SCOTT PRUITT",
+            "relation": "Nominee for Administrator of the Environmental Protection Administration",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "SEAN SPICER",
+            "relation": "White House Press Secretary",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "SEBASTIAN GORKA",
+            "relation": "Deputy assistant",
+            "detail": "http://www.cnn.com/2017/02/07/politics/kfile-gorka-on-fake-news/index.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "SERGEY I. KISLYAK",
+            "relation": "The Russian diplomat sat in on Trump foreign policy speech in April 2016",
+            "detail": "https://www.washingtonpost.com/politics/inside-trumps-financial-ties-to-russia-and-his-unusual-flattery-of-vladimir-putin/2016/06/17/dbdcaac8-31a6-11e6-8ff7-7b6c1998b7a0_story.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "SHERI A. DILLON",
+            "relation": "Conflicts of interest lawyer",
+            "detail": "https://www.nytimes.com/2017/01/11/us/politics/trump-press-conference-transcript.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "STEPHEN A. SCHWARZMAN",
+            "relation": "Chair of Trump's Strategic and Policy forum",
+            "detail": "http://fortune.com/2016/12/14/donald-trump-musk-kalanick-nooyi/"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "STEPHEN B. MEISTER",
+            "relation": "Meister was Trump's attorney during a 2013 ethics suit of the NY AG",
+            "detail": "http://www.nydailynews.com/blogs/dailypolitics/donald-trump-set-file-ethics-complaint-tuesday-ny-ag-eric-schneiderman-blog-entry-1.1697386 | http://www.newsweek.com/2015/10/30/trumps-big-atlantic-city-dump-385427.html"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "STEPHEN BANNON",
+            "relation": "White House Chief Strategist and Senior Advisor",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "STEPHEN MILLER",
+            "relation": "Senior Advisor to the President for Policy",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "STEVEN MNUCHIN",
+            "relation": "Nominee for Secretary of Treasury",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "STEVEN ROTH",
+            "relation": "\"Former campaign advisor",
+            "detail": " going to co-head infrastructure council\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "TERRY BRANSTAD",
+            "relation": "Nominee for Ambassador to China",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "THOMAS J. BARRACK JR.",
+            "relation": "Inauguration committee chairman",
+            "detail": "https://www.donaldjtrump.com/press-releases/president-elect-trump-announces-presidentialinaugural-committee-leader"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "TOM BOSSERT",
+            "relation": "Homeland Security Advisor",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "TOM PRICE",
+            "relation": "Nominee for Secretary of Health and Human Services",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "TRAVIS KALANICK",
+            "relation": "Former member of Trump's Strategic and Policy forum",
+            "detail": "http://fortune.com/2016/12/14/donald-trump-musk-kalanick-nooyi/ | http://www.recode.net/2017/2/2/14490950/travis-kalanick-uber-ceo-leaves-donald-trump-advisory-council"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "VICTOR PINCHUK",
+            "relation": "Trump made video appearance for Pinchuk's convention",
+            "detail": "https://www.buzzfeed.com/paulmcleod/trump-foundation-received-150000-donation-in-exchange-for-20?utm_term=.wtQZdJa2V#.llzLxNkYw"
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "WELLS GRIFFITH",
+            "relation": "\"Battleground states director for Trump campaign",
+            "detail": " senior adviser for the Department of Energy\""
+        },
+        {
+            "source": "DONALD J. TRUMP",
+            "target": "WILBUR ROSS",
+            "relation": "Nominee for Secretary of Commerce",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD TRUMP JR.",
+            "target": "ANDRIY ZAIKA",
+            "relation": "\"Met in 2006",
+            "detail": " when Zaika was head of the Ukrainian Construction Consortium\""
+        },
+        {
+            "source": "DONALD TRUMP JR.",
+            "target": "BERNARD R. DIAMOND",
+            "relation": "Business partners",
+            "detail": "Nexis"
+        },
+        {
+            "source": "DONALD TRUMP JR.",
+            "target": "BONNIE HAYDON",
+            "relation": "Father-in-law/son-in-law",
+            "detail": "Nexis � NYT 11/19/2006"
+        },
+        {
+            "source": "DONALD TRUMP JR.",
+            "target": "FELIPE YARYURA",
+            "relation": "The Argentine real estate developer is said to be friends with the Trump family",
+            "detail": "http://www.lanacion.com.ar/1955208-la-emocion-del-socio-argentino-de-trump"
+        },
+        {
+            "source": "DONALD TRUMP JR.",
+            "target": "JASON D. GREENBLATT",
+            "relation": "Business partners",
+            "detail": "Nexis"
+        },
+        {
+            "source": "DONALD TRUMP JR.",
+            "target": "RUSSELL FLICKER",
+            "relation": "Business partners",
+            "detail": "Nexis"
+        },
+        {
+            "source": "DONALD TRUMP JR.",
+            "target": "VANESSA TRUMP",
+            "relation": "Married",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "DONALD TRUMP JR.",
+            "target": "VIKTOR TKACHUK",
+            "relation": "\"Met in 2006",
+            "detail": " when Tkachuk was an adviser to the Ukrainian president\""
+        },
+        {
+            "source": "ELAINE CHAO",
+            "target": "ANGELA CHAO",
+            "relation": "Siblings",
+            "detail": "https://www.propublica.org/article/familys-shipping-company-could-pose-problems-for-trumps-transportation-pick"
+        },
+        {
+            "source": "ELAINE CHAO",
+            "target": "CHRISTINE CHAO",
+            "relation": "Siblings",
+            "detail": "https://www.propublica.org/article/familys-shipping-company-could-pose-problems-for-trumps-transportation-pick"
+        },
+        {
+            "source": "ELVIRA KUDRYASHOVA",
+            "target": "VIKTOR KHRAPUNOV",
+            "relation": "Parent/child",
+            "detail": "https://www.ft.com/content/33285dfa-9231-11e6-8df8-d3778b55a923"
+        },
+        {
+            "source": "ERIC TRUMP",
+            "target": "FELIPE YARYURA",
+            "relation": "The Argentine real estate developer is said to be friends with the Trump family; Yaryura and Eric Trump were photographed together at Trump's election night party",
+            "detail": "http://www.lanacion.com.ar/1955208-la-emocion-del-socio-argentino-de-trump"
+        },
+        {
+            "source": "ERIK PRINCE",
+            "target": "BETSY DEVOS",
+            "relation": "Siblings",
+            "detail": "https://theintercept.com/2017/01/17/notorious-mercenary-erik-prince-is-advising-trump-from-the-shadows/"
+        },
+        {
+            "source": "ERIK PRINCE",
+            "target": "STEPHEN BANNON",
+            "relation": "\"\"\"Prince has a close relationship with Breitbart News and Steve Bannon",
+            "detail": "\"\" per The Intercept\""
+        },
+        {
+            "source": "FELIX SATER",
+            "target": "ELVIRA KUDRYASHOVA",
+            "relation": "\"Sater \"\"agreed to serve as [a director] of a company through which [Kudryashova] would pour $3m into a business venture as part of her efforts to secure a US investor visa",
+            "detail": "\"\" per the Financial Times\""
+        },
+        {
+            "source": "GEORGE SOROS",
+            "target": "STEVEN MNUCHIN",
+            "relation": "Mnuchin worked for Soros' fund",
+            "detail": "http://www.vanityfair.com/news/2016/11/george-soros-declares-war-on-trump"
+        },
+        {
+            "source": "GEORGE T. CONWAY III",
+            "target": "KELLYANNE CONWAY",
+            "relation": "Married",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "GRACE MURDOCH",
+            "target": "IVANKA TRUMP",
+            "relation": "Former trustee",
+            "detail": "https://www.ft.com/content/a615f0ce-ed90-11e6-930f-061b01e23655"
+        },
+        {
+            "source": "ILYAS KHRAPUNOV",
+            "target": "VIKTOR KHRAPUNOV",
+            "relation": "Parent/child",
+            "detail": "https://www.ft.com/content/33285dfa-9231-11e6-8df8-d3778b55a923"
+        },
+        {
+            "source": "IVANKA TRUMP",
+            "target": "ANDRIY ZAIKA",
+            "relation": "\"Met in 2006",
+            "detail": " when Zaika was head of the Ukrainian Construction Consortium\""
+        },
+        {
+            "source": "IVANKA TRUMP",
+            "target": "DINA POWELL",
+            "relation": "\"Ivanka Trump \"\"has been leaning on [Powell] ... as a top adviser on policy and staffing",
+            "detail": "\"\" per Politico\""
+        },
+        {
+            "source": "IVANKA TRUMP",
+            "target": "FELIPE YARYURA",
+            "relation": "The Argentine real estate developer is said to be friends with the Trump family",
+            "detail": "http://www.lanacion.com.ar/1955208-la-emocion-del-socio-argentino-de-trump"
+        },
+        {
+            "source": "IVANKA TRUMP",
+            "target": "JARED KUSHNER",
+            "relation": "Married",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "IVANKA TRUMP",
+            "target": "MEHMET ALI YALCINDAG",
+            "relation": "Business partners",
+            "detail": "http://www.nytimes.com/2016/11/26/us/politics/donald-trump-international-business.html"
+        },
+        {
+            "source": "IVANKA TRUMP",
+            "target": "PAULO FIGUEIREDO FILHO",
+            "relation": "\"Lunched together",
+            "detail": " spawning Trump interest in Rio hotel\""
+        },
+        {
+            "source": "IVANKA TRUMP",
+            "target": "VIKTOR TKACHUK",
+            "relation": "\"Met in 2006",
+            "detail": " when Tkachuk was an adviser to the Ukrainian president\""
+        },
+        {
+            "source": "JAMES S.C. CHAO",
+            "target": "ANGELA CHAO",
+            "relation": "Parent/child",
+            "detail": "https://www.propublica.org/article/familys-shipping-company-could-pose-problems-for-trumps-transportation-pick"
+        },
+        {
+            "source": "JAMES S.C. CHAO",
+            "target": "CHRISTINE CHAO",
+            "relation": "Parent/child",
+            "detail": "https://www.propublica.org/article/familys-shipping-company-could-pose-problems-for-trumps-transportation-pick"
+        },
+        {
+            "source": "JAMES S.C. CHAO",
+            "target": "ELAINE CHAO",
+            "relation": "Parent/child",
+            "detail": "https://www.propublica.org/article/familys-shipping-company-could-pose-problems-for-trumps-transportation-pick"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "ASHER ABEHSERA",
+            "relation": "Partnered with Kushner in Brooklyn projects",
+            "detail": "http://nymag.com/daily/intelligencer/2017/01/jared-kushner-trump-administration-power.html"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "CHARLES KUSHNER",
+            "relation": "Parent/child",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "CUI TIANKAI",
+            "relation": "\"\"\"Kushner and Cui have had an extensive ongoing dialogue that has been positive",
+            "detail": " according to a White House official"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "DARA ORBACH",
+            "relation": "Siblings",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "JUSTIN WENIGER",
+            "relation": "Friends",
+            "detail": "http://www.businessinsider.com/jared-kushner-trump-media-mogul-observer-2016-12"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "MARGARET CHIN",
+            "relation": "Donor",
+            "detail": "http://thevillager.com/2013/07/25/the-billionaires-back-margaret-chin-for-city-council/"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "MARTIN SORRELL",
+            "relation": "Friends",
+            "detail": "http://nymag.com/daily/intelligencer/2017/01/jared-kushner-trump-administration-power.html"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "MILES BERGER",
+            "relation": "\"\"\"business partner of the Kushners",
+            "detail": "\"\" per New York Magazine\""
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "NICOLE KUSHNER MEYER",
+            "relation": "Siblings",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "ROB SPEYER",
+            "relation": "Gave Kushner $50 million to help by a property from his father's company-Tishman Speyer",
+            "detail": "http://nymag.com/realestate/features/53797/index5.html"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "RYAN DOHERTY",
+            "relation": "Friends",
+            "detail": "http://www.businessinsider.com/jared-kushner-trump-media-mogul-observer-2016-12"
+        },
+        {
+            "source": "JARED KUSHNER",
+            "target": "STRAUSS ZELNICK",
+            "relation": "\"\"\"close with Kushner",
+            "detail": "\"\" per New York Magazine\""
+        },
+        {
+            "source": "JEFF SESSIONS",
+            "target": "AJIT PAI",
+            "relation": "Former deputy chief counsel",
+            "detail": "https://www.fcc.gov/about/leadership/ajit-pai"
+        },
+        {
+            "source": "JEFF SESSIONS",
+            "target": "GARRETT MURCH",
+            "relation": "Former communications advisor",
+            "detail": "http://www.politico.com/magazine/story/2016/06/stephen-miller-donald-trump-2016-policy-adviser-jeff-sessions-213992 | https://www.linkedin.com/in/garrett-murch-9800b928"
+        },
+        {
+            "source": "JEFF SESSIONS",
+            "target": "JOHN KYL",
+            "relation": "\"Kyl was Sessions's \"\"sherpa\"\" for confirmation hearings\"",
+            "detail": "http://www.azcentral.com/story/news/politics/azdc/2017/01/13/jon-kyl-helping-jeff-sessions-confirmation-hearing-attorney-general/96558516/"
+        },
+        {
+            "source": "JEFF SESSIONS",
+            "target": "RICK DEARBORN",
+            "relation": "Former chief of staff",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "JOSE E.B. ANTONIO",
+            "target": "\"JOSE ROBERTO \"\"ROBBIE\"\" ANTONIO\"",
+            "relation": "Parent/child",
+            "detail": "http://www.nytimes.com/2016/11/26/us/politics/donald-trump-international-business.html?_r=0"
+        },
+        {
+            "source": "JOSEPH MEYER",
+            "target": "NICOLE KUSHNER MEYER",
+            "relation": "Married",
+            "detail": "http://nymag.com/daily/intelligencer/2013/01/jared-kushner-names-brother-in-law-observer-ceo.html"
+        },
+        {
+            "source": "JOSHUA KUSHNER",
+            "target": "DARA ORBACH",
+            "relation": "Siblings",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "JOSHUA KUSHNER",
+            "target": "JARED KUSHNER",
+            "relation": "Siblings",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "JOSHUA KUSHNER",
+            "target": "NICOLE KUSHNER MEYER",
+            "relation": "Siblings",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "LEV LEVIEV",
+            "target": "VLADIMIR PUTIN",
+            "relation": "\"Described him as a \"\"true friend\"\"\"",
+            "detail": "http://www.nytimes.com/2007/09/16/magazine/16Leviev-t.html"
+        },
+        {
+            "source": "LUCIUS JOSEPH RICCIO",
+            "target": "RHONA GRAFF RICCIO",
+            "relation": "Married",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "MARK BURNETT",
+            "target": "ROMA DOWNEY",
+            "relation": "Married",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "MARYANNE TRUMP BARRY",
+            "target": "KEVIN MARINO",
+            "relation": "Marino served as Barry's law clerk",
+            "detail": "http://www.khmarino.com/attorney_bio_marino.html"
+        },
+        {
+            "source": "MATTHEW CALAMARI",
+            "target": "\"MATTHEW CALAMARI JR.\"",
+            "relation": "Parent/child",
+            "detail": "https://www.nytimes.com/2016/12/25/us/politics/trump-organization-business.html?_r=0"
+        },
+        {
+            "source": "MEHMET ALI YALCINDAG",
+            "target": "AYDIN DOGAN",
+            "relation": "Father-in-law/son-in-law",
+            "detail": "http://www.hurriyetdailynews.com/a-major-shake-up-at-dogan-media.aspx?PageID=238&NID=104450&NewsCatID=345"
+        },
+        {
+            "source": "MELANIA TRUMP",
+            "target": "LINDSEY REYNOLDS",
+            "relation": "Chief of staff",
+            "detail": "http://www.politico.com/story/2017/02/donald-trump-challenges-governing-presidency-234879"
+        },
+        {
+            "source": "MELANIA TRUMP",
+            "target": "STEPHANIE WINSTON WOLKOFF",
+            "relation": "Senior adviser",
+            "detail": "http://www.politico.com/story/2017/02/donald-trump-challenges-governing-presidency-234879"
+        },
+        {
+            "source": "MICHAEL FASCITELLI",
+            "target": "DONALD J. TRUMP",
+            "relation": "Fascitelli is CEO of Vornado Realty Trust and donated the maximum to Trump's campaign",
+            "detail": "https://www.bloomberg.com/news/features/2017-01-27/jared-kushner-s-felon-father-brought-two-fellow-inmates-into-company"
+        },
+        {
+            "source": "MICHELLE BACHMANN",
+            "target": "STEPHEN MILLER",
+            "relation": "Worked for her",
+            "detail": "http://www.politico.com/magazine/story/2016/06/stephen-miller-donald-trump-2016-policy-adviser-jeff-sessions-213992"
+        },
+        {
+            "source": "MICK MULVANEY",
+            "target": "PAM MULVANEY",
+            "relation": "Married",
+            "detail": "http://www.usnews.com/news/articles/2011/02/22/10-things-you-didnt-know-about-mick-mulvaney"
+        },
+        {
+            "source": "MIKE PENCE",
+            "target": "DONALD J. TRUMP",
+            "relation": "Vice President",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "MIKE PENCE",
+            "target": "JEN PAVLIK",
+            "relation": "Deputy chief of staff",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "MIKE PENCE",
+            "target": "JOHN GRAY",
+            "relation": "Gray worked for Pence",
+            "detail": "http://thehill.com/policy/finance/314991-trump-team-prepares-dramatic-cuts"
+        },
+        {
+            "source": "MIKE PENCE",
+            "target": "JOSH PITCOCK",
+            "relation": "Chief of staff",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "MIKE PENCE",
+            "target": "MARC SHORT",
+            "relation": "\"\"\"Longtime aide",
+            "detail": "\"\" per CNN\""
+        },
+        {
+            "source": "MIKE PENCE",
+            "target": "RUSS VOUGHT",
+            "relation": "Former aide",
+            "detail": "http://thehill.com/policy/finance/314991-trump-team-prepares-dramatic-cuts"
+        },
+        {
+            "source": "MITCH MCCONNELL",
+            "target": "ELAINE CHAO",
+            "relation": "Married",
+            "detail": "http://elainelchao.com/biography/"
+        },
+        {
+            "source": "NICOLAS SARKOZY",
+            "target": "THOMAS J. BARRACK JR.",
+            "relation": "Sarkozy awarded France's Chevalier de la L�gion d'Honneur to Barrack",
+            "detail": "http://colonyinc.com/about#fulltext4"
+        },
+        {
+            "source": "NICOLE KUSHNER MEYER",
+            "target": "DARA ORBACH",
+            "relation": "Siblings",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "OMAROS� ONEE MANIGAULT",
+            "target": "ALBERT ROSS SR.",
+            "relation": "Mentored by",
+            "detail": "http://www.omarosa.com/#"
+        },
+        {
+            "source": "OMAROS� ONEE MANIGAULT",
+            "target": "H. B. HICKS",
+            "relation": "Mentored by",
+            "detail": "http://www.omarosa.com/#"
+        },
+        {
+            "source": "PAUL MANAFORT",
+            "target": "ABDUL RAHMAN AL-ASSIR",
+            "relation": "Manafort secured a loan from al-Assir",
+            "detail": "https://www.washingtonpost.com/politics/in-business-as-in-politics-trump-adviser-no-stranger-to-controversial-figures/2016/04/26/970db232-08c7-11e6-b283-e79d81c63c1b_story.html?utm_term=.de35331c8594"
+        },
+        {
+            "source": "PAUL MANAFORT",
+            "target": "ARTHUR G. COHEN",
+            "relation": "\"\"\"negotiated a deal to buy the site of the Drake Hotel on Park Avenue in Manhattan",
+            "detail": "\"\" per the New York Times\""
+        },
+        {
+            "source": "PAUL MANAFORT",
+            "target": "DMITRY FIRTASH",
+            "relation": "Worked together in bid for site of Drake Hotel in NYC",
+            "detail": "https://www.washingtonpost.com/politics/in-business-as-in-politics-trump-adviser-no-stranger-to-controversial-figures/2016/04/26/970db232-08c7-11e6-b283-e79d81c63c1b_story.html?utm_term=.de35331c8594"
+        },
+        {
+            "source": "PAUL MANAFORT",
+            "target": "DMYTRO FIRTASH",
+            "relation": "\"Manafort and Firtash",
+            "detail": " \"\"an oligarch who made billions as a middleman for Gazprom"
+        },
+        {
+            "source": "PAUL MANAFORT",
+            "target": "RINAT AKHMETOV",
+            "relation": "Manafort worked to improve image of Akhmetov's companies",
+            "detail": "https://www.nytimes.com/2016/08/01/us/paul-manafort-ukraine-donald-trump.html"
+        },
+        {
+            "source": "PAUL MANAFORT",
+            "target": "SERHIY LYOVOCHKIN",
+            "relation": "Manafort ran PR for Lyovochkin's campaign",
+            "detail": "https://www.nytimes.com/2016/08/01/us/paul-manafort-ukraine-donald-trump.html"
+        },
+        {
+            "source": "PAUL MANAFORT",
+            "target": "VIKTOR F. YANUKOVYCH",
+            "relation": "Manafort ran PR for Yanukovych's campaign",
+            "detail": "https://www.nytimes.com/2016/08/01/us/paul-manafort-ukraine-donald-trump.html"
+        },
+        {
+            "source": "REBEKAH MERCER",
+            "target": "KELLYANNE CONWAY",
+            "relation": "\"\"\"They're close",
+            "detail": "\"\" per The Atlantic\""
+        },
+        {
+            "source": "REBEKAH MERCER",
+            "target": "STEPHEN BANNON",
+            "relation": "\"\"\"Tied at the hip",
+            "detail": "\"\" per a source to The Hill\""
+        },
+        {
+            "source": "REBEKAH MERCER",
+            "target": "SYLVAIN MIROCHNIKOFF",
+            "relation": "Married",
+            "detail": "https://www.washingtonpost.com/politics/the-rise-of-gop-mega-donor-rebekah-mercer/2016/09/13/85ae3c32-79bf-11e6-beac-57a4a412e93a_story.html?utm_term=.9cf5b5040519"
+        },
+        {
+            "source": "REINCE PRIEBUS",
+            "target": "KATIE WALSH",
+            "relation": "Deputy chief of staff",
+            "detail": "http://www.cnn.com/2017/01/04/politics/bill-stepien-chris-christie-donald-trump-white-house/"
+        },
+        {
+            "source": "REX TILLERSON",
+            "target": "ALEXANDER NOVAK",
+            "relation": "\"\"\"Tillerson lowered his profile in Russia but continued to meet with non-sanctioned high-level Russian officials in Moscow",
+            "detail": " including Russian Energy Minister Alexander Novak"
+        },
+        {
+            "source": "REX TILLERSON",
+            "target": "IGOR SECHIN",
+            "relation": "\"\"\"Tillerson",
+            "detail": " the CEO of ExxonMobil"
+        },
+        {
+            "source": "REX TILLERSON",
+            "target": "VLADIMIR PUTIN",
+            "relation": "\"In 2012",
+            "detail": " Putin awarded Order of Friendship to Tillerson\""
+        },
+        {
+            "source": "RHONA GRAFF RICCIO",
+            "target": "DONALD J. TRUMP",
+            "relation": "Assistant",
+            "detail": "http://www.nytimes.com/1993/04/19/style/weddings-rhona-c-graff-lucius-j-riccio.html"
+        },
+        {
+            "source": "RICHARD DEVOS",
+            "target": "BETSY DEVOS",
+            "relation": "Parent/child",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "RICHARD GOETTLICH",
+            "target": "JARED KUSHNER",
+            "relation": "Kushner hired him for his real estate company",
+            "detail": "https://www.bloomberg.com/news/features/2017-01-27/jared-kushner-s-felon-father-brought-two-fellow-inmates-into-company"
+        },
+        {
+            "source": "\"RICHARD MARVIN \"\"DICK\"\" DEVOS JR.\"",
+            "target": "BETSY DEVOS",
+            "relation": "Married",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "RICK PERRY",
+            "target": "ANITA THIGPEN PERRY",
+            "relation": "Married",
+            "detail": "http://thehill.com/policy/healthcare/182135-perrys-addition-to-the-white-house-his-wife-health-advocate-anita-perry"
+        },
+        {
+            "source": "RICK PERRY",
+            "target": "PETER HOLT",
+            "relation": "\"Perry consulted for Holt",
+            "detail": " after governorship to which Holt gave money\""
+        },
+        {
+            "source": "ROBERT LIGHTHIZER",
+            "target": "BOB DOLE",
+            "relation": "Lighthizer was Dole's campaign treasurer in 1996",
+            "detail": "http://www.pbs.org/newshour/rundown/trump-nominates-robert-lighthizer-u-s-trade-representative/"
+        },
+        {
+            "source": "ROBERT MERCER",
+            "target": "REBEKAH MERCER",
+            "relation": "Parent/child",
+            "detail": "https://www.washingtonpost.com/politics/the-rise-of-gop-mega-donor-rebekah-mercer/2016/09/13/85ae3c32-79bf-11e6-beac-57a4a412e93a_story.html?utm_term=.b4e577d44785"
+        },
+        {
+            "source": "\"ROGER J. STONE JR.\"",
+            "target": "JULIAN ASSANGE",
+            "relation": "\"Stone told the Guardian that he and Assange have a \"\"mutual friend\"\" who served as a backchannel for advance notice of WikiLeaks' Clinton-related releases\"",
+            "detail": "https://www.theguardian.com/us-news/2016/nov/02/trump-adviser-clinton-emails-wikileaks-roger-stone"
+        },
+        {
+            "source": "RUDY GIULIANI",
+            "target": "KEN KURSON",
+            "relation": "Worked on 2008 presidential campaign",
+            "detail": "http://nymag.com/daily/intelligencer/2017/01/jared-kushner-trump-administration-power.html"
+        },
+        {
+            "source": "RUPERT MURDOCH",
+            "target": "CHLOE MURDOCH",
+            "relation": "Parent/child",
+            "detail": "https://www.ft.com/content/a615f0ce-ed90-11e6-930f-061b01e23655"
+        },
+        {
+            "source": "RUPERT MURDOCH",
+            "target": "GRACE MURDOCH",
+            "relation": "Parent/child",
+            "detail": "https://www.ft.com/content/a615f0ce-ed90-11e6-930f-061b01e23655"
+        },
+        {
+            "source": "SALLY PRIEBUS",
+            "target": "REINCE PRIEBUS",
+            "relation": "Married",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "SAM BROWNBACK",
+            "target": "AJIT PAI",
+            "relation": "Former chief counsel",
+            "detail": "https://www.fcc.gov/about/leadership/ajit-pai"
+        },
+        {
+            "source": "SCOTT PRUITT",
+            "target": "HAROLD G. HAMM",
+            "relation": "\"Hamm",
+            "detail": " chief executive of Continental Energy"
+        },
+        {
+            "source": "SERGEI MILLIAN",
+            "target": "DONALD J. TRUMP",
+            "relation": "Appeared in a Facebook photo together in 2014",
+            "detail": "https://www.ft.com/content/ea52a678-9cfb-11e6-8324-be63473ce146"
+        },
+        {
+            "source": "SERGEI MILLIAN",
+            "target": "VLADIMIR PUTIN",
+            "relation": "Putin awarded Millian a prize in Jan. 2015 for developing ties between Russia and American businesspeople",
+            "detail": "https://www.ft.com/content/ea52a678-9cfb-11e6-8324-be63473ce146"
+        },
+        {
+            "source": "SERGEI MILLIAN",
+            "target": "YURY ZAYTSEV",
+            "relation": "Went on trip to Moscow together in 2011",
+            "detail": "https://www.ft.com/content/ea52a678-9cfb-11e6-8324-be63473ce146"
+        },
+        {
+            "source": "SERGEY KISLYAK",
+            "target": "MICHAEL FLYNN",
+            "relation": "\"\"\"in frequent contact",
+            "detail": "\"\" per Jan. 13"
+        },
+        {
+            "source": "SERYL KUSHNER",
+            "target": "DARA ORBACH",
+            "relation": "Parent/child",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "SERYL KUSHNER",
+            "target": "NICOLE KUSHNER MEYER",
+            "relation": "Parent/child",
+            "detail": "http://www.townandcountrymag.com/society/politics/news/a9244/charles-jared-kushner-family/"
+        },
+        {
+            "source": "SETYA NOVANTO",
+            "target": "HARY TANOESOEDIBJO",
+            "relation": "\"Setya (former speaker of the Indonesian House of Representatives) is a \"\"good friend\"\" of Hary (a Trump partner on Indonesia resorts)",
+            "detail": " per the New York Times\""
+        },
+        {
+            "source": "SHANNON MCGAHN",
+            "target": "DON MCGAHN",
+            "relation": "Married",
+            "detail": "General knowledge"
+        },
+        {
+            "source": "STEPHEN B. MEISTER",
+            "target": "JASON D. MEISTER",
+            "relation": "Parent/child",
+            "detail": "https://therealdeal.com/issues_articles/whos-jumping-ship/"
+        },
+        {
+            "source": "STEPHEN MILLER",
+            "target": "CAROLINE MAY",
+            "relation": "\"Miller sent tips to May",
+            "detail": " a Breitbart reporter\""
+        },
+        {
+            "source": "STEPHEN MILLER",
+            "target": "DAVID HOROWITZ",
+            "relation": "\"\"\"Miller considers Horowitz a mentor",
+            "detail": "\"\" per Politico\""
+        },
+        {
+            "source": "STEPHEN MILLER",
+            "target": "JEFF SESSIONS",
+            "relation": "Former chief of communications",
+            "detail": "http://www.politico.com/magazine/story/2016/06/stephen-miller-donald-trump-2016-policy-adviser-jeff-sessions-213992"
+        },
+        {
+            "source": "STEPHEN MILLER",
+            "target": "JULIA HAHN",
+            "relation": "\"Miller sent tips to Hahn",
+            "detail": " a Breitbart reporter\""
+        },
+        {
+            "source": "STEPHEN MILLER",
+            "target": "SAM NUNBERG",
+            "relation": "Friends",
+            "detail": "http://www.politico.com/magazine/story/2016/06/stephen-miller-donald-trump-2016-policy-adviser-jeff-sessions-213992"
+        },
+        {
+            "source": "STEPHEN MILLER",
+            "target": "TUCKER CARLSON",
+            "relation": "Miller set up meeting between Carlson and Sessions",
+            "detail": "http://www.politico.com/magazine/story/2016/06/stephen-miller-donald-trump-2016-policy-adviser-jeff-sessions-213992"
+        },
+        {
+            "source": "STEVEN MNUCHIN",
+            "target": "EDWARD LAMPERT",
+            "relation": "Former college roommates; Mnuchin has a position in an entity connected to Lampert",
+            "detail": "https://www.washingtonpost.com/news/wonk/wp/2017/01/19/treasury-nominee-initially-omitted-more-than-100-million-from-disclosures-democratic-memo-shows/?postshare=3221484835948504&tid=ss_tw&utm_term=.e7b4eb5ed0a8"
+        },
+        {
+            "source": "SUSAN POMPEO",
+            "target": "MICHAEL POMPEO",
+            "relation": "Married",
+            "detail": "http://pompeo.house.gov/biography/"
+        },
+        {
+            "source": "TERRY BRANSTAD",
+            "target": "XI JINPING",
+            "relation": "\"Brandstad and the Chinese president have a \"\"friendship dating back to 1985",
+            "detail": "\"\" per Bloomberg Politics\""
+        },
+        {
+            "source": "TIAH JOO KIM",
+            "target": "TONY TIAH THEE KIAN",
+            "relation": "Parent/child",
+            "detail": "https://www.washingtonpost.com/classic-apps/high-rollers-risk-takers-and-rule-benders-donald-trumps-unorthodox-roster-of-overseas-business-partners/2017/01/13/73797ab6-cc37-11e6-b8a2-8c2a61b0436f_story.html?utm_term=.c2f475ce19c6"
+        },
+        {
+            "source": "VLADIMIR PUTIN",
+            "target": "ALEXANDER NOVAK",
+            "relation": "Energy minister",
+            "detail": "https://www.washingtonpost.com/news/josh-rogin/wp/2016/12/13/inside-rex-tillersons-long-romance-with-russia/?utm_term=.37f238834d71"
+        },
+        {
+            "source": "VLADIMIR PUTIN",
+            "target": "IGOR SECHIN",
+            "relation": "Former deputy prime minister",
+            "detail": "https://www.ft.com/content/a8f24922-cef4-11e3-9165-00144feabdc0"
+        },
+        {
+            "source": "WELLS GRIFFITH",
+            "target": "CATHERINE BRAY GRIFFITH",
+            "relation": "Married",
+            "detail": "https://www.theguardian.com/commentisfree/2017/feb/02/corporate-dark-money-power-atlantic-lobbyists-brexit"
+        },
+        {
+            "source": "WENDI DENG MURDOCH",
+            "target": "CHLOE MURDOCH",
+            "relation": "Parent/child",
+            "detail": "https://www.ft.com/content/a615f0ce-ed90-11e6-930f-061b01e23655"
+        },
+        {
+            "source": "WENDI DENG MURDOCH",
+            "target": "GRACE MURDOCH",
+            "relation": "Parent/child",
+            "detail": "https://www.ft.com/content/a615f0ce-ed90-11e6-930f-061b01e23655"
+        },
+        {
+            "source": "WENDI DENG MURDOCH",
+            "target": "IVANKA TRUMP",
+            "relation": "\"\"\"Close friend",
+            "detail": "\"\" according to the Guardian\""
+        },
+        {
+            "source": "WILBUR ROSS",
+            "target": "RUDY GIULIANI",
+            "relation": "Privatization advisor when Giuliani was mayor",
+            "detail": "http://www.salon.com/2016/11/21/wilbur-ross-jr-rumored-to-be-donald-trumps-choice-for-commerce-secretary-owned-a-mine-where-12-miners-died-in-2006_partner/"
+        },
+        {
+            "source": "WU XIAOHUI",
+            "target": "ZHUO RAN",
+            "relation": "\"Married. (Zhuo is the granddaughter of Deng Xiaoping",
+            "detail": " the former leader of the People's Republic of China. Wu is the chairman of the Anbang Insurance Group"
+        }
+    ]
+}
