@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <VForce/>
+    <div id="force-panel">
+      <VForce/>
+  </div>
   </div>
 </template>
 
@@ -24,4 +26,13 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+#force-panel {
+  height: 40vmax;
+  width: 70vmax;
+  background-color: lightgray;
+  
+}
+
+
 </style>

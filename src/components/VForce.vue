@@ -63,9 +63,10 @@ export default {
       that.svgSocial = d3
         .selectAll("#force")
         .append("svg")
-            .attr("viewBox", "0 0 1000 875")
+            .attr("viewBox", "0 0 1300 1075")
+            //.style('fill','blue')
         .append("g")
-            .attr("transform", "translate(150,150)");
+            //.attr("transform", "translate(150,150)");
 
     var link = that.svgSocial.append("g")
       .attr("class", "links")
