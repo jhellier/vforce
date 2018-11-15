@@ -13,25 +13,43 @@ import forceData from "../../public/data/trump.json";
 export default {
   name: "vforce",
   data() {
-      let sWidth = document.body.clientWidth;
-      let sHeight = document.body.clientHeight;
+
       
-      let sim = d3.forceSimulation()
-        .force("link", d3.forceLink().id(function(d) { return d.id; }))
-        .force("charge", d3.forceManyBody())
-        .force("center", d3.forceCenter(sWidth / 2, sHeight / 2));
 
       return {
           svgSocial: {},
-          simulation: sim
+          width: '',
+          height: '',
+          simulation: d3.forceSimulation()
+            .force("link", d3.forceLink().id(function(d) { return d.id; }))
+            .force("charge", d3.forceManyBody().strength(-10).distanceMax([100]))
+            .force("center", d3.forceCenter()),
+          hello: 'what',
+          minZoom: 0.1,
+          maxZoom: 7,
+          zoom: d3.zoom().on('zoom', this.handleZoom)  
       }
   },
   mounted() {
+
+      this.width = document.getElementById("force-panel").offsetWidth;
+      this.height = document.getElementById("force-panel").offsetHeight;
+
+    //   this.simulation = d3.forceSimulation()
+    //     .force("link", d3.forceLink().id(function(d) { return d.id; }))
+    //     .force("charge", d3.forceManyBody())
+    //     .force("center", d3.forceCenter());
+
     this.buildForce();
+    
   },
 
   methods: {
 
+    handleZoom: function() {
+        this.svgSocial.attr("transform", d3.event.transform);
+        this.svgSocial.attr('scale', d3.event.scale);
+    },
 
     dragstarted: function(d) {
         if (!d3.event.active) this.simulation.alphaTarget(0.3).restart();
@@ -63,10 +81,11 @@ export default {
       that.svgSocial = d3
         .selectAll("#force")
         .append("svg")
-            .attr("viewBox", "0 0 1300 1075")
-            //.style('fill','blue')
+            .attr('viewBox',[-that.width/2, -that.height/2, that.width, that.height])
         .append("g")
-            //.attr("transform", "translate(150,150)");
+        
+
+    d3.select('svg').call(that.zoom);
 
     var link = that.svgSocial.append("g")
       .attr("class", "links")

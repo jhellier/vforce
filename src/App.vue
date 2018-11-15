@@ -30,7 +30,7 @@ export default {
 #force-panel {
   height: 40vmax;
   width: 70vmax;
-  background-color: lightgray;
+  background-color: rgb(88, 86, 86);
   
 }
 
