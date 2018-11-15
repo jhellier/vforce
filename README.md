@@ -1,4 +1,5 @@
 # vforce
+A D3.js based force layout wrapped in a Vue component
 
 ## Project setup
 ```
