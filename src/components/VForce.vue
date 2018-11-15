@@ -20,6 +20,7 @@ export default {
           svgSocial: {},
           width: '',
           height: '',
+          radius: 5,
           simulation: d3.forceSimulation()
             .force("link", d3.forceLink().id(function(d) { return d.id; }))
             .force("charge", d3.forceManyBody().strength(-10).distanceMax([100]))
@@ -99,7 +100,7 @@ export default {
     .selectAll("circle")
     .data(forceData.nodes)
     .enter().append("circle")
-      .attr("r", 5)
+      .attr("r", that.radius)
       .attr("fill", function(d) { return colorSocial(d.detail); })
       .call(d3.drag()
           .on("start", that.dragstarted)
@@ -119,15 +120,20 @@ export default {
       .links(forceData.links);
 
   function ticked() {
-    link
+
+    // node.attr("cx", function(d) { return d.x = Math.max(that.radius, Math.min(that.width - that.radius, d.x)); })
+    //     .attr("cy", function(d) { return d.y = Math.max(that.radius, Math.min(that.height - that.radius, d.y)); });        
+
+    node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+
+        link
         .attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
 
-    node
-        .attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
   }
 
     }
