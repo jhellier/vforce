@@ -1,154 +1,233 @@
 <template>
+    <div>
+    <div id="controlBar">
+          <div class="toggleElement">  
+          <span id="increaseStrength" @click="increaseStrength"  title="Click to increase strength">
+              <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+          </span>
+          </div>  
+
+    </div>    
     <div id="force">
         
+    </div>
     </div>
 </template>
 
 <script>
 /* eslint-disable */
 
+/*
+    TODO:
+    1. Add json file tag attribute and convert to handle a passed in json file descriptor
+    2. Itemize force control types and add control widgets
+    3. Deal with the placement of controls on the svg element so that they don't change with the zoom or pan
+        They need to float over the svg.
+    4.     
+*/
 import * as d3 from "d3";
 import forceData from "../../public/data/trump.json";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faRedo } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+
+library.add(faRedo);
+
 export default {
   name: "vforce",
+  components: {
+    faRedo,
+    FontAwesomeIcon
+  },
   data() {
-
-      
-
-      return {
-          svgSocial: {},
-          width: '',
-          height: '',
-          radius: 5,
-          simulation: d3.forceSimulation()
-            .force("link", d3.forceLink().id(function(d) { return d.id; }))
-            .force("charge", d3.forceManyBody().strength(-10).distanceMax([100]))
-            .force("center", d3.forceCenter()),
-          hello: 'what',
-          minZoom: 0.1,
-          maxZoom: 7,
-          zoom: d3.zoom().on('zoom', this.handleZoom)  
-      }
+    return {
+      svgSocial: {},
+      node: {},
+      link: {},
+      width: "",
+      height: "",
+      radius: 5,
+      strength: -100,
+      distance: 100,
+      simulation: d3
+        .forceSimulation()
+        .force("link",
+          d3.forceLink().id(function(d) {
+            return d.id;
+          })
+        )
+        .force("charge", 
+           d3.forceManyBody()
+            .strength(-100)
+            .distanceMax([100])
+        )
+        .force("center", d3.forceCenter()),
+      minZoom: 0.1,
+      maxZoom: 7,
+      zoom: d3.zoom().on("zoom", this.handleZoom)
+    };
   },
   mounted() {
-
-      this.width = document.getElementById("force-panel").offsetWidth;
-      this.height = document.getElementById("force-panel").offsetHeight;
-
-    //   this.simulation = d3.forceSimulation()
-    //     .force("link", d3.forceLink().id(function(d) { return d.id; }))
-    //     .force("charge", d3.forceManyBody())
-    //     .force("center", d3.forceCenter());
+    this.width = document.getElementById("force-panel").offsetWidth;
+    this.height = document.getElementById("force-panel").offsetHeight;
 
     this.buildForce();
-    
   },
 
   methods: {
 
     handleZoom: function() {
-        this.svgSocial.attr("transform", d3.event.transform);
-        this.svgSocial.attr('scale', d3.event.scale);
+      this.svgSocial.attr("transform", d3.event.transform);
+      this.svgSocial.attr("scale", d3.event.scale);
     },
 
     dragstarted: function(d) {
-        if (!d3.event.active) this.simulation.alphaTarget(0.3).restart();
-            d.fx = d.x;
-            d.fy = d.y;
+      if (!d3.event.active) this.simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
     },
 
     dragged: function(d) {
-        d.fx = d3.event.x;
-        d.fy = d3.event.y;
+      d.fx = d3.event.x;
+      d.fy = d3.event.y;
     },
 
     dragended: function(d) {
-        if (!d3.event.active) this.simulation.alphaTarget(0);
-            d.fx = null;
-            d.fy = null;
+      if (!d3.event.active) this.simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
     },
 
+    increaseStrength: function() {
+      //this.strength *= 1.2;
+      this.distance *= 1.5;
+      this.simulation.force("charge", 
+           d3.forceManyBody()
+            .strength(this.strength)
+            .distanceMax([this.distance])
+        )
+       //this.simulation.stop()
+       this.simulation.alpha(1).restart(); 
 
 
+
+//this.node.attr('cx',function(d) { ++d.x; return d.x;  })        
+       // this.ticked();
+    },
 
     buildForce() {
       let that = this;
 
-
-    var colorSocial = d3.scaleOrdinal(d3.schemeDark2);  
-
+      var colorSocial = d3.scaleOrdinal(d3.schemeDark2);
 
       that.svgSocial = d3
         .selectAll("#force")
         .append("svg")
-            .attr('viewBox',[-that.width/2, -that.height/2, that.width, that.height])
+        .attr("viewBox", [
+          -that.width / 2,
+          -that.height / 2,
+          that.width,
+          that.height
+        ])
+        .append("g");
+
+      d3.select("svg").call(that.zoom);
+
+      that.link = that.svgSocial
         .append("g")
-        
-
-    d3.select('svg').call(that.zoom);
-
-    var link = that.svgSocial.append("g")
-      .attr("class", "links")
-    .selectAll("line")
-    .data(forceData.links)
-    .enter().append("line")
-      .attr("stroke-width", function(d) { return Math.sqrt(d.relation); })
-
-  var node = that.svgSocial.append("g")
-      .attr("class", "nodes")
-    .selectAll("circle")
-    .data(forceData.nodes)
-    .enter().append("circle")
-      .attr("r", that.radius)
-      .attr("fill", function(d) { return colorSocial(d.detail); })
-      .call(d3.drag()
-          .on("start", that.dragstarted)
-          .on("drag", that.dragged)
-          .on("end", that.dragended));
-
-  node.append("title")
-      .html(function(d) { 
-          return d.id;
+        .attr("class", "links")
+        .selectAll("line")
+        .data(forceData.links)
+        .enter()
+        .append("line")
+        .attr("stroke-width", function(d) {
+          return Math.sqrt(d.relation);
         });
 
-  that.simulation
-      .nodes(forceData.nodes)
-      .on("tick", ticked);
+      that.node = that.svgSocial
+        .append("g")
+        .attr("class", "nodes")
+        .selectAll("circle")
+        .data(forceData.nodes)
+        .enter()
+        .append("circle")
+        .attr("r", that.radius)
+        .attr("fill", function(d) {
+          return colorSocial(d.detail);
+        })
+        .call(
+          d3
+            .drag()
+            .on("start", that.dragstarted)
+            .on("drag", that.dragged)
+            .on("end", that.dragended)
+        );
 
-  that.simulation.force("link")
-      .links(forceData.links);
+      that.node.append("title").html(function(d) {
+        return d.id;
+      });
 
-  function ticked() {
+      that.simulation.nodes(forceData.nodes).on("tick", that.ticked);
 
-    // node.attr("cx", function(d) { return d.x = Math.max(that.radius, Math.min(that.width - that.radius, d.x)); })
-    //     .attr("cy", function(d) { return d.y = Math.max(that.radius, Math.min(that.height - that.radius, d.y)); });        
+      that.simulation.force("link").links(forceData.links);
+    },
+    ticked: function() {
 
-    node
-        .attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
+        this.node
+          .attr("cx", function(d) {
+            return d.x;
+          })
+          .attr("cy", function(d) {
+            return d.y;
+          });
 
-        link
-        .attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
-
-  }
-
-    }
+        this.link
+          .attr("x1", function(d) {
+            return d.source.x;
+          })
+          .attr("y1", function(d) {
+            return d.source.y;
+          })
+          .attr("x2", function(d) {
+            return d.target.x;
+          })
+          .attr("y2", function(d) {
+            return d.target.y;
+          });
+      }    
   }
 };
 </script>
 
 <style>
 
+
+#controlBar {
+  height: 2vmax;
+  background-color: lightgrey;
+  border-color: darkgrey;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 5px;
+  font-size: 1.25vmax;
+}
+
+.toggleElement {
+    margin-left: 5px;
+    white-space: no-wrap;
+    float: left;
+    cursor: pointer;
+}
+
 .links line {
   stroke: #999;
-  stroke-opacity: 0.6; }
+  stroke-opacity: 0.6;
+}
 
 .nodes circle {
   stroke: #fff;
-  stroke-width: 1.5px; }
-
+  stroke-width: 1.5px;
+}
 </style>
