@@ -5,6 +5,9 @@
           <span id="increaseStrength" @click="increaseStrength"  title="Click to increase strength">
               <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
           </span>
+          <span id="descreaseStrength" @click="decreaseStrength"  title="Click to decrease strength">
+              <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+          </span>
           </div>  
 
     </div>    
@@ -108,13 +111,18 @@ export default {
             .strength(this.strength)
             .distanceMax([this.distance])
         )
-       //this.simulation.stop()
+       this.simulation.alpha(1).restart(); 
+    },
+
+    decreaseStrength: function() {
+      this.distance /= 1.5;
+      this.simulation.force("charge", 
+           d3.forceManyBody()
+            .strength(this.strength)
+            .distanceMax([this.distance])
+        )
        this.simulation.alpha(1).restart(); 
 
-
-
-//this.node.attr('cx',function(d) { ++d.x; return d.x;  })        
-       // this.ticked();
     },
 
     buildForce() {
