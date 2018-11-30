@@ -2,12 +2,14 @@
     <div>
     <div id="controlBar">
           <div class="toggleElement">  
-          <span id="increaseStrength" @click="increaseStrength"  title="Click to increase strength">
-              <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
-          </span>
-          <span id="descreaseStrength" @click="decreaseStrength"  title="Click to decrease strength">
-              <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
-          </span>
+            <span id="increaseStrength" @click="increaseStrength"  title="Click to increase strength">
+                <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+            </span>
+          </div>  
+          <div class="toggleElement">              
+            <span id="descreaseStrength" @click="decreaseStrength"  title="Click to decrease strength">
+                <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+            </span>
           </div>  
 
     </div>    
@@ -141,7 +143,7 @@ export default {
         ])
         .append("g");
 
-      d3.select("svg").call(that.zoom);
+      d3.select("#force svg").call(that.zoom);
 
       that.link = that.svgSocial
         .append("g")
