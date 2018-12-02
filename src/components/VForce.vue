@@ -51,12 +51,23 @@ export default {
       svgSocial: {},
       node: {},
       link: {},
+      colorSocial: {},
       width: "",
       height: "",
       radius: 5,
       strength: -100,
       distance: 100,
-      simulation: d3
+      simulation: {},
+      minZoom: 0.1,
+      maxZoom: 7,
+      zoom: {}
+    };
+  },
+  mounted() {
+    this.width = document.getElementById("force-panel").offsetWidth;
+    this.height = document.getElementById("force-panel").offsetHeight;
+
+    this.simulation = d3
         .forceSimulation()
         .force("link",
           d3.forceLink().id(function(d) {
@@ -68,17 +79,12 @@ export default {
             .strength(-100)
             .distanceMax([100])
         )
-        .force("center", d3.forceCenter()),
-      minZoom: 0.1,
-      maxZoom: 7,
-      zoom: d3.zoom().on("zoom", this.handleZoom)
-    };
-  },
-  mounted() {
-    this.width = document.getElementById("force-panel").offsetWidth;
-    this.height = document.getElementById("force-panel").offsetHeight;
+        .force("center", d3.forceCenter());
+
+    this.zoom = d3.zoom().on("zoom", this.handleZoom);
 
     this.buildForce();
+    this.restartForce();
   },
 
   methods: {
@@ -130,7 +136,7 @@ export default {
     buildForce() {
       let that = this;
 
-      var colorSocial = d3.scaleOrdinal(d3.schemeDark2);
+      that.colorSocial = d3.scaleOrdinal(d3.schemeDark2);
 
       that.svgSocial = d3
         .selectAll("#force")
@@ -148,24 +154,42 @@ export default {
       that.link = that.svgSocial
         .append("g")
         .attr("class", "links")
-        .selectAll("line")
-        .data(forceData.links)
-        .enter()
+        .selectAll("line");
+
+      that.node = that.svgSocial
+        .append("g")
+        .attr("class", "nodes")
+        .selectAll("circle");
+
+        that.node.append("title").html(function(d) {
+          return d.id;
+        });      
+
+
+      that.simulation.nodes(forceData.nodes).on("tick", that.ticked);
+
+      that.simulation.force("link").links(forceData.links);
+    },
+
+    restartForce: function() {
+      let that = this;
+console.log(forceData);
+      that.link = that.link.data(forceData.links);
+      that.link.exit().remove();
+      that.link = that.link.enter()
         .append("line")
         .attr("stroke-width", function(d) {
           return Math.sqrt(d.relation);
         });
 
-      that.node = that.svgSocial
-        .append("g")
-        .attr("class", "nodes")
-        .selectAll("circle")
-        .data(forceData.nodes)
+      that.node = that.node.data(forceData.nodes)
+      that.node.exit().remove();
+      that.node = that.node
         .enter()
         .append("circle")
         .attr("r", that.radius)
         .attr("fill", function(d) {
-          return colorSocial(d.detail);
+          return that.colorSocial(d.detail);
         })
         .call(
           d3
@@ -175,14 +199,8 @@ export default {
             .on("end", that.dragended)
         );
 
-      that.node.append("title").html(function(d) {
-        return d.id;
-      });
-
-      that.simulation.nodes(forceData.nodes).on("tick", that.ticked);
-
-      that.simulation.force("link").links(forceData.links);
     },
+
     ticked: function() {
 
         this.node
