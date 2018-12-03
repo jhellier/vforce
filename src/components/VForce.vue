@@ -11,6 +11,11 @@
                 <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
             </span>
           </div>  
+          <div class="toggleElement">              
+            <span id="addNode" @click="addNode"  title="Click to add node">
+                <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+            </span>
+          </div>  
 
     </div>    
     <div id="force">
@@ -129,13 +134,25 @@ export default {
             .strength(this.strength)
             .distanceMax([this.distance])
         )
+
        this.simulation.alpha(1).restart(); 
 
     },
 
+    addNode: function() {
+     
+      forceData.nodes.push({"id":"JOE BLOW"});
+      forceData.links.push({"source":"JACK WEISSELBERG",
+                             "target":"JOE BLOW",
+                             "relation": "Parent/child",
+                              "detail": "https://www.nytimes.com/2016/05/24/business/dealbook/donald-trump-relationship-bankers.html?_r=0"
+                              });
+      this.restartForce();                             
+    },
+
     buildForce() {
       let that = this;
-
+ 
       that.colorSocial = d3.scaleOrdinal(d3.schemeDark2);
 
       that.svgSocial = d3
@@ -164,25 +181,11 @@ export default {
         that.node.append("title").html(function(d) {
           return d.id;
         });      
-
-
-      that.simulation.nodes(forceData.nodes).on("tick", that.ticked);
-
-      that.simulation.force("link").links(forceData.links);
     },
 
     restartForce: function() {
       let that = this;
-console.log(forceData);
-      that.link = that.link.data(forceData.links);
-      that.link.exit().remove();
-      that.link = that.link.enter()
-        .append("line")
-        .attr("stroke-width", function(d) {
-          return Math.sqrt(d.relation);
-        });
-
-      that.node = that.node.data(forceData.nodes)
+      that.node = that.node.data(forceData.nodes, function(d) { return d.id; })
       that.node.exit().remove();
       that.node = that.node
         .enter()
@@ -197,7 +200,28 @@ console.log(forceData);
             .on("start", that.dragstarted)
             .on("drag", that.dragged)
             .on("end", that.dragended)
-        );
+        ).merge(that.node)
+
+
+    that.link = that.link.data(forceData.links,  function(d) { return d.source.id + "-" + d.target.id; });
+      that.link.exit().remove();
+      that.link = that.link.enter()
+        .append("line")
+        .attr("stroke-width", function(d) {
+          return Math.sqrt(d.relation);
+        })
+        .merge(that.link);
+
+
+        that.node.selectAll('title').remove();
+        that.node.append("title").html(function(d) {
+          return d.id;
+        });
+
+      that.simulation.nodes(forceData.nodes).on("tick", that.ticked);
+
+      that.simulation.force("link").links(forceData.links);
+        this.simulation.alpha(1).restart();
 
     },
 
