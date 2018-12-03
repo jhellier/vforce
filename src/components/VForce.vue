@@ -68,9 +68,8 @@ export default {
       zoom: {}
     };
   },
-  mounted() {
-    this.width = document.getElementById("force-panel").offsetWidth;
-    this.height = document.getElementById("force-panel").offsetHeight;
+  created: function() {
+    console.log('Created');
 
     this.simulation = d3
         .forceSimulation()
@@ -88,8 +87,22 @@ export default {
 
     this.zoom = d3.zoom().on("zoom", this.handleZoom);
 
+  },
+  mounted: function() {
+    console.log('Mounted');
+    this.width = document.getElementById("force-panel").offsetWidth;
+    this.height = document.getElementById("force-panel").offsetHeight;
+
+
+
     this.buildForce();
     this.restartForce();
+  },
+  updated: function() {
+    console.log('Updated');
+  },
+  destroyed: function() {
+    console.log('Destroyed');
   },
 
   methods: {
