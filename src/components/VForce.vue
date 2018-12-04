@@ -3,17 +3,27 @@
     <div id="controlBar">
           <div class="toggleElement">  
             <span id="increaseStrength" @click="increaseStrength"  title="Click to increase strength">
-                <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+                <font-awesome-icon :icon="['fas','arrow-up']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
             </span>
           </div>  
           <div class="toggleElement">              
             <span id="descreaseStrength" @click="decreaseStrength"  title="Click to decrease strength">
-                <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+                <font-awesome-icon :icon="['fas','arrow-down']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
             </span>
           </div>  
           <div class="toggleElement">              
             <span id="addNode" @click="addNode"  title="Click to add node">
-                <font-awesome-icon :icon="['fas','redo']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+                <font-awesome-icon :icon="['fas','plus']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+            </span>
+          </div>  
+          <div class="toggleElement">              
+            <span id="zoomIn" @click="zoomIn"  title="Click to zoom in">
+                <font-awesome-icon :icon="['fas','expand']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+            </span>
+          </div>  
+          <div class="toggleElement">              
+            <span id="zoomOut" @click="zoomOut"  title="Click to zoom out">
+                <font-awesome-icon :icon="['fas','compress']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
             </span>
           </div>  
 
@@ -39,16 +49,29 @@ import * as d3 from "d3";
 import forceData from "../../public/data/trump.json";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faRedo } from "@fortawesome/free-solid-svg-icons";
+import { faCompress } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faExpand} from "@fortawesome/free-solid-svg-icons";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 
-library.add(faRedo);
+library.add(faCompress);
+library.add(faArrowUp);
+library.add(faArrowDown);
+library.add(faExpand);
+library.add(faPlus);
 
 export default {
   name: "vforce",
   components: {
-    faRedo,
+    faCompress,
+    faArrowUp,
+    faArrowDown,
+    faExpand,
+    faPlus,
     FontAwesomeIcon
   },
   data() {
@@ -68,9 +91,13 @@ export default {
       zoom: {}
     };
   },
+  beforeCreate: function() {
+    console.log('Before Created');
+    
+
+  },
   created: function() {
     console.log('Created');
-
     this.simulation = d3
         .forceSimulation()
         .force("link",
@@ -93,8 +120,6 @@ export default {
     this.width = document.getElementById("force-panel").offsetWidth;
     this.height = document.getElementById("force-panel").offsetHeight;
 
-
-
     this.buildForce();
     this.restartForce();
   },
@@ -108,8 +133,8 @@ export default {
   methods: {
 
     handleZoom: function() {
+      console.log(d3.event.transform);
       this.svgSocial.attr("transform", d3.event.transform);
-      this.svgSocial.attr("scale", d3.event.scale);
     },
 
     dragstarted: function(d) {
@@ -150,6 +175,42 @@ export default {
 
        this.simulation.alpha(1).restart(); 
 
+    },
+
+    zoomIn: function() {
+      // Set this so that the zoom is smooth
+      // One way is to loop with small increment and delay each step
+      let that = this;
+      let timer = setInterval(zoomIt, 15);
+      let zoomFactorEnd = 0.2;
+      let zoomFactorStep = 0.05;
+      let scaleFactor = 1;
+      function zoomIt() {
+        scaleFactor = scaleFactor - zoomFactorStep;
+        if (scaleFactor < zoomFactorEnd) {
+          clearInterval(timer);
+          return;
+        }
+        that.svgSocial.attr('transform', 'scale(' + scaleFactor + ')');
+      }
+    },
+
+    zoomOut: function() {
+      // Set this so that the zoom is smooth
+      // One way is to loop with small increment and delay each step
+      let that = this;
+      let timer = setInterval(zoomIt, 15);
+      let zoomFactorEnd = 1;
+      let zoomFactorStep = 0.05;
+      let scaleFactor = 0.2;
+      function zoomIt() {
+        scaleFactor = scaleFactor + zoomFactorStep;
+        if (scaleFactor > zoomFactorEnd) {
+          clearInterval(timer);
+          return;
+        }
+        that.svgSocial.attr('transform', 'scale(' + scaleFactor + ')');
+      }
     },
 
     addNode: function() {
