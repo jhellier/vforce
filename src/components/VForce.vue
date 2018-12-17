@@ -86,8 +86,9 @@ export default {
       strength: -100,
       distance: 100,
       simulation: {},
-      minZoom: 0.1,
-      maxZoom: 7,
+      minZoom: 0.2,
+      maxZoom: 1,
+      currentZoomLevel: 0,
       zoom: {}
     };
   },
@@ -180,14 +181,16 @@ export default {
     zoomIn: function() {
       // Set this so that the zoom is smooth
       // One way is to loop with small increment and delay each step
+      
       let that = this;
       let timer = setInterval(zoomIt, 15);
-      let zoomFactorEnd = 0.2;
+      let zoomFactorEnd = that.minZoom;
       let zoomFactorStep = 0.05;
-      let scaleFactor = 1;
+      let scaleFactor = that.maxZoom;
       function zoomIt() {
         scaleFactor = scaleFactor - zoomFactorStep;
         if (scaleFactor < zoomFactorEnd) {
+          that.currentZoomLevel = scaleFactor;
           clearInterval(timer);
           return;
         }
@@ -200,12 +203,24 @@ export default {
       // One way is to loop with small increment and delay each step
       let that = this;
       let timer = setInterval(zoomIt, 15);
-      let zoomFactorEnd = 1;
+      let zoomFactorEnd = that.maxZoom;
       let zoomFactorStep = 0.05;
-      let scaleFactor = 0.2;
+      let scaleFactor = that.minZoom;
+
       function zoomIt() {
-        scaleFactor = scaleFactor + zoomFactorStep;
+
+        if (that.svgSocial.attr('transform')) {
+          let tempFactor = that.svgSocial.attr('transform').match(/([0-9]+)/g);
+          tempFactor = tempFactor[tempFactor.length - 1];
+          if (tempFactor == zoomFactorEnd) {
+            clearInterval(timer);
+            return;
+          }
+        } 
+          scaleFactor = scaleFactor + zoomFactorStep;
+        
         if (scaleFactor > zoomFactorEnd) {
+          that.currentZoomLevel = scaleFactor;
           clearInterval(timer);
           return;
         }
@@ -266,8 +281,10 @@ export default {
         .append("circle")
         .attr("r", that.radius)
         .attr("fill", function(d) {
-          return that.colorSocial(d.detail);
+          return 'blue';
         })
+        .style('stroke','darkblue')
+        .style('stroke-width',1)
         .call(
           d3
             .drag()
@@ -281,9 +298,8 @@ export default {
       that.link.exit().remove();
       that.link = that.link.enter()
         .append("line")
-        .attr("stroke-width", function(d) {
-          return Math.sqrt(d.relation);
-        })
+        .style('stroke','darkblue')
+        .style('stroke-width',1)        
         .merge(that.link);
 
 
