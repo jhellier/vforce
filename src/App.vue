@@ -1,3 +1,5 @@
+// This is a comment
+
 <template>
   <div id="app">
     <div id="force-panel">
