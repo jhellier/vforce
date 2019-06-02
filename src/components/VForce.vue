@@ -3,27 +3,27 @@
     <div id="controlBar">
           <div class="toggleElement">  
             <span id="increaseStrength" @click="increaseStrength"  title="Click to increase strength">
-                <font-awesome-icon :icon="['fas','arrow-up']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+                <font-awesome-icon :icon="['fas','arrow-up']" transform="down-3" class="iconStyle" style="color: #5f5c5c"/>
             </span>
           </div>  
           <div class="toggleElement">              
             <span id="descreaseStrength" @click="decreaseStrength"  title="Click to decrease strength">
-                <font-awesome-icon :icon="['fas','arrow-down']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+                <font-awesome-icon :icon="['fas','arrow-down']" transform="down-3" class="iconStyle" style="color: #5f5c5c"/>
             </span>
           </div>  
           <div class="toggleElement">              
             <span id="addNode" @click="addNode"  title="Click to add node">
-                <font-awesome-icon :icon="['fas','plus']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+                <font-awesome-icon :icon="['fas','plus']" transform="down-3" class="iconStyle" style="color: #5f5c5c"/>
             </span>
           </div>  
           <div class="toggleElement">              
             <span id="zoomIn" @click="zoomIn"  title="Click to zoom in">
-                <font-awesome-icon :icon="['fas','expand']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+                <font-awesome-icon :icon="['fas','expand']" transform="down-3" class="iconStyle" style="color: #5f5c5c"/>
             </span>
           </div>  
           <div class="toggleElement">              
             <span id="zoomOut" @click="zoomOut"  title="Click to zoom out">
-                <font-awesome-icon :icon="['fas','compress']" transform="down-3" class="iconStyle" style="color: darkgrey"/>
+                <font-awesome-icon :icon="['fas','compress']" transform="down-3" class="iconStyle" style="color: #5f5c5c"/>
             </span>
           </div>  
 
@@ -43,7 +43,7 @@
     2. Itemize force control types and add control widgets
     3. Deal with the placement of controls on the svg element so that they don't change with the zoom or pan
         They need to float over the svg.
-    4.     
+    4.  Added branch to bug234   
 */
 import * as d3 from "d3";
 import forceData from "../../public/data/trump.json";
@@ -61,6 +61,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(faCompress);
 library.add(faArrowUp);
 library.add(faArrowDown);
+library.add(JUNK);
 library.add(faExpand);
 library.add(faPlus);
 
@@ -281,10 +282,16 @@ export default {
         .append("circle")
         .attr("r", that.radius)
         .attr("fill", function(d) {
-          return 'blue';
+          return '#303030';
         })
         .style('stroke','darkblue')
         .style('stroke-width',1)
+        .on('mouseover', function(d) {
+          d3.select(this).attr('fill','red')
+        })
+        .on('mouseout', function(d) {
+          d3.select(this).attr('fill','#303030')
+        })
         .call(
           d3
             .drag()
