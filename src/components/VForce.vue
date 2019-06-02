@@ -61,7 +61,6 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(faCompress);
 library.add(faArrowUp);
 library.add(faArrowDown);
-library.add(JUNK);
 library.add(faExpand);
 library.add(faPlus);
 
