@@ -43,7 +43,7 @@
     2. Itemize force control types and add control widgets
     3. Deal with the placement of controls on the svg element so that they don't change with the zoom or pan
         They need to float over the svg.
-    4.  Added bqranch to bug234   
+    4.  Added branch to bug234   
 */
 import * as d3 from "d3";
 import forceData from "../../public/data/trump.json";
@@ -61,7 +61,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(faCompress);
 library.add(faArrowUp);
 library.add(faArrowDown);
-// library.add(faExpand);
+library.add(faExpand);
 library.add(faPlus);
 
 export default {
